@@ -1,0 +1,15 @@
+[
+  {"app": "Rest Test", "body_name": "FORM DATA BODY", "request":"Login","body":"{name: 'form-data'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "JSON BODY", "request":"Register","body":"{name: 'json-body'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "FORM DATA BODY", "request":"Update Profile","body":"{name: 'form-data'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "JSON BODY", "request":"Remove Profile Picture","body":"{name: 'json body'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "FORM DATA BODY", "request":"Add Phone Number","body":"{name: 'form-data'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "FORM DATA BODY", "request":"Remove Phone Number","body":"{name: 'form-data'}","message":"Body added successfully"},
+  
+  {"app": "Rest Test", "body_name": "JSON BODY RANDOM STRING DEFAULT", "request":"Register","body":"{name: 'json-body random default string', description: '{{__string}}'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "JSON BODY RANDOM STRING PARAM20", "request":"Register","body":"{name: 'random param string 20', description: '{{__string(20)}}'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "JSON BODY RANDOM STRING PARAM50", "request":"Register","body":"{name: 'random param string 50', description: '{{__string(50)}}'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "JSON BODY RANDOM INT DEFAULT", "request":"Register","body": "{name: 'random int default', age: '{{__int}}'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "JSON BODY RANDOM INT PARAM3", "request":"Register","body":"{name: 'random int param 3', age: '{{__int(3)}}'}","message":"Body added successfully"},
+  {"app": "Rest Test", "body_name": "JSON BODY RANDOM INT PARAM5", "request":"Register","body":"{name: 'random int param 5', age: '{{__int(5)}}'}","message":"Body added successfully"}
+]

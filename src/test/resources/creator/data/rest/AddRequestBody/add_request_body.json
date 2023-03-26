@@ -1,0 +1,30 @@
+[
+  {
+    "app": "creator",
+    "request": "All Apps",
+    "body_name" : "valid body",
+    "body": "{name: 'sdfsdfd'}",
+    "message": "Body added successfully"
+  },
+  {
+    "app": "creator",
+    "request": "All Apps",
+    "body_name" : "invalid body",
+    "body": "{name: 'sdfsdfd'}",
+    "message": "Body added successfully"
+  },
+  {
+    "app": "creator",
+    "request": "All Apps",
+    "body_name" : "another body",
+    "body": "{name: 'sdfsdfd'}",
+    "message": "Body added successfully"
+  },
+  {
+    "app": "creator",
+    "request": "All Apps",
+    "body_name" : "another body",
+    "body": "{name: 'sdfsdfd'}",
+    "message": "Request is not valid!"
+  }
+]

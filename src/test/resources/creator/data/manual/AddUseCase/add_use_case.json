@@ -1,0 +1,11 @@
+[
+  {"app":  "creator", "name": "add application"},
+  {"app":  "creator", "name": "add page"},
+  {"app":  "creator", "name": "add request"},
+  {"app":  "creator", "name": "add rest flow"},
+  {"app":  "creator", "name": "add response"},
+  {"app":  "creator", "name": "add body"},
+  {"app":  "creator", "name": "add header"},
+  {"app":  "creator", "name": "add use case"},
+  {"app":  "creator", "name": "add testcase"}
+]

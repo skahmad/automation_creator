@@ -1,0 +1,22 @@
+[
+    {
+	"app": "creator",
+	"name": "testing environment"
+    },
+    {
+	"app": "creator",
+	"name": "development environment"
+    },
+    {
+	"app": "creator",
+	"name": "prod environment"
+    },
+    {
+	"app": "Rest Test",
+	"name": "testing environment"
+    },
+    {
+	"app": "Rest Test",
+	"name": "development environment"
+    }
+]

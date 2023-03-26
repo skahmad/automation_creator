@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Manual Suite" verbose="1" >
+    <test name="manual test">
+        <classes>
+<!--            <class name="creator.manual.AddUseCase"/>-->
+<!--            <class name="creator.manual.AddTestCase"/>-->
+<!--            <class name="creator.manual.UpdateTestCase"/>-->
+            <class name="creator.manual.UpdateUsecase"/>
+        </classes>
+    </test>
+</suite>

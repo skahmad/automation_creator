@@ -1,0 +1,7 @@
+[
+  {"app": "creator", "request":  "Anitibyx armatus", "name":  "added", "status":  "201", "body":  "{}"},
+  {"app": "creator", "request":  "Anitibyx armatus", "name":  "failed", "status":  "201", "body":  "{}"},
+  {"app": "creator", "request":  "Anitibyx armatus", "name":  "server error", "status":  "201", "body":  "{}"},
+  {"app": "creator", "request":  "Choloepus hoffmani", "name":  "added", "status":  "201", "body":  "{}"},
+  {"app": "creator", "request":  "Choloepus hoffmani", "name":  "deleted", "status":  "201", "body":  "{}"}
+]

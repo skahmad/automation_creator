@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All Suite" verbose="1" >
+    <test name="rest test">
+        <classes>
+            <class name="creator.rest.Request" />
+            <class name="creator.rest.AddRequestBody" />
+            <class name="creator.rest.DeleteRequestBody" />
+        </classes>
+    </test>
+</suite>

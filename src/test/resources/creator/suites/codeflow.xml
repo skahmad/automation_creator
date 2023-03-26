@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Codeflow Suite" verbose="1" >
+    <test name="code flow tests">
+        <classes>
+<!--            <class name="creator.codeflow.collections.AddCollectionTests" />-->
+            <class name="creator.codeflow.groups.AddGroupTests" />
+            <class name="creator.codeflow.rule.AddRuleTests" />
+        </classes>
+    </test>
+</suite>

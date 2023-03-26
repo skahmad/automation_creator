@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="App Suite" verbose="1" >
+    <test name="app test">
+        <classes>
+            <class name="creator.app.AddApp" />
+            <class name="creator.app.DeleteApp"/>
+            <class name="creator.app.AddVersion" />
+            <class name="creator.app.EnvironmentTest" />
+        </classes>
+    </test>
+</suite>

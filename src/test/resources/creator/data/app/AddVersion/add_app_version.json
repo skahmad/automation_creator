@@ -1,0 +1,26 @@
+[
+  {
+    "app": "creator",
+    "version": "1.7"
+  },
+  {
+    "app": "creator",
+    "version": "1.8"
+  },
+  {
+    "app": "GlobalIDS",
+    "version": "10.73.1"
+  },
+  {
+    "app": "GlobalIDS",
+    "version": "10.74.0"
+  },
+  {
+    "app": "GlobalIDS",
+    "version": "10.75.0"
+  },
+  {
+    "app": "GlobalIDS",
+    "version": "10.75.1"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "creator",
+    "url": "http://localhost:8080/creator/api/v1"
+  },
+  {
+    "name": "GlobalIDS",
+    "url": "http://localhost:9789/creator"
+  },
+  {
+    "name": "Rest Test",
+    "url": "http://localhost:8990/creator/api/v1"
+  }
+]

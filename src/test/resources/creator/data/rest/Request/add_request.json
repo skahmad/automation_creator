@@ -1,0 +1,38 @@
+[
+  {"app": "creator", "name":"All Apps","url":"/app/all","method":"get"},
+  {"app": "creator", "name":"Add App","url":"/app/add","method":"post"},
+  {"app": "creator", "name":"Delete App","url":"/app/{id}/delete","method":"delete"},
+  {"app": "creator", "name":"App Details","url":"/app/{id}/details","method":"get"},
+  {"app": "creator", "name":"Add app version","url":"/app/version","method":"post"},
+  {"app": "creator", "name":"All app version","url":"/app/{id}/version","method":"get"},
+
+  {"app": "creator", "name":"All Pages","url":"/page/all?app=","method":"get"},
+  {"app": "creator", "name":"App Pages","url":"/page/add","method":"post"},
+  {"app": "creator", "name":"Delete Page","url":"/page/{p}/delete","method":"delete"},
+  {"app": "creator", "name":"Page Details","url":"/page/{p}/details","method":"get"},
+  {"app": "creator", "name":"Update Page","url":"/page/update","method":"post"},
+
+  {"app": "creator", "name":"All Endpoints","url":"/test/api/endpoints/all?app=","method":"get"},
+  {"app": "creator", "name":"Add Endpoint","url":"/test/api/endpoints/add","method":"post"},
+  {"app": "creator", "name":"Endpoints Details","url":"/test/api/endpoints/{id}/details","method":"get"},
+  {"app": "creator", "name":"Delete Endpoint","url":"/test/api/endpoints/{id}/delete","method":"delete"},
+  {"app": "creator", "name":"Update Endpoints","url":"/test/api/endpoints/update","method":"post"},
+  {"app": "creator", "name":"Add Endpoint Header","url":"/test/api/endpoints/{id}/add-header","method":"post"},
+  {"app": "creator", "name":"Delete Endpoint Header","url":"/test/api/endpoints/{e}/{h}/remove-header","method":"delete"},
+  {"app": "creator", "name":"Add Endpoint body","url":"/test/api/endpoints/add-body","method":"post"},
+  {"app": "creator", "name":"Update Endpoint body","url":"/test/api/endpoints/update-body","method":"post"},
+  {"app": "creator", "name":"All Endpoint bodies","url":"/test/api/endpoints/{id}/bodies","method":"get"},
+  {"app": "creator", "name":"Delete Endpoint body","url":"/test/api/endpoints/{e}/body/{b}/delete","method":"delete"},
+
+  {"app": "creator", "name":"Add Response","url":"/api/response/add","method":"post"},
+  {"app": "creator", "name":"Delete Response","url":"/api/response/{r}/delete","method":"delete"},
+  {"app": "creator", "name":"Update Response","url":"/api/response/update","method":"post"},
+  {"app": "creator", "name":"Update environment","url":"/app/environment/update","method":"put"},
+  
+  {"app": "Rest Test", "name":"Login","url":"/api/response/update","method":"post"},
+  {"app": "Rest Test", "name":"Register","url":"/api/response/update","method":"post"},
+  {"app": "Rest Test", "name":"Update Profile","url":"/api/response/update","method":"post"},
+  {"app": "Rest Test", "name":"Remove Profile Picture","url":"/api/response/update","method":"post"},
+  {"app": "Rest Test", "name":"Add Phone Number","url":"/api/response/update","method":"post"},
+  {"app": "Rest Test", "name":"Remove Phone Number","url":"/api/response/update","method":"post"}
+]

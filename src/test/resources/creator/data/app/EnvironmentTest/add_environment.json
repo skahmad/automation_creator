@@ -1,0 +1,27 @@
+[
+    {
+	"app": "creator",
+	"name": "testing environment",
+	"url": "https://localhost:2443/creator/api/v1"
+    },
+    {
+	"app": "creator",
+	"name": "development environment",
+	"url": "https://localhost:2443/creator/api/v1"
+    },
+    {
+	"app": "creator",
+	"name": "prod environment",
+	"url": "https://localhost:8443/creator/api/v1"
+    },
+    {
+	"app": "Rest Test",
+	"name": "testing environment",
+	"url": "http://localhost:8990/creator/api/v1"
+    },
+    {
+	"app": "Rest Test",
+	"name": "development environment",
+	"url": "http://localhost:8990/creator/api/v1"
+    }
+]

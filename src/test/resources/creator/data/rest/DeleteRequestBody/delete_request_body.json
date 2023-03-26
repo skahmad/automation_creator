@@ -1,0 +1,26 @@
+[
+  {
+    "app": "creator",
+    "request": "All Apps",
+    "body_name" : "valid body",
+    "message": "deleted successfully!"
+  },
+  {
+    "app": "creator",
+    "request": "All Apps",
+    "body_name" : "invalid body",
+    "message": "deleted successfully!"
+  },
+  {
+    "app": "creator",
+    "request": "All Apps",
+    "body_name" : "another body",
+    "message": "deleted successfully!"
+  },
+  {"app": "Rest Test", "body_name": "FORM DATA BODY", "request":"Login","message":"deleted successfully!"},
+  {"app": "Rest Test", "body_name": "JSON BODY", "request":"Register","message":"deleted successfully!"},
+  {"app": "Rest Test", "body_name": "FORM DATA BODY", "request":"Update Profile","message":"deleted successfully!"},
+  {"app": "Rest Test", "body_name": "JSON BODY", "request":"Remove Profile Picture","message":"deleted successfully!"},
+  {"app": "Rest Test", "body_name": "FORM DATA BODY", "request":"Add Phone Number","message":"deleted successfully!"},
+  {"app": "Rest Test", "body_name": "FORM DATA BODY", "request":"Remove Phone Number","message":"deleted successfully!"}
+]

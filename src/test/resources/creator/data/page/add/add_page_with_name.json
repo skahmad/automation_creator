@@ -1,0 +1,22 @@
+[
+  {
+    "app": "creator",
+    "name": "Add App"
+  },
+  {
+    "app": "creator",
+    "name": "App List"
+  },
+  {
+    "app": "creator",
+    "name": "App Delete"
+  },
+  {
+    "app": "creator",
+    "name": "App Details"
+  },
+  {
+    "app": "creator",
+    "name": "App Setting"
+  }
+]

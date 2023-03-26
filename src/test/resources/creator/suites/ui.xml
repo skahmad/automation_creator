@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All Suite" verbose="1" >
+    <test name="ui test">
+        <classes>
+            <class name="creator.page.add" />
+            <class name="creator.page.delete"/>
+        </classes>
+    </test>
+</suite>

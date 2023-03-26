@@ -1,0 +1,12 @@
+[
+  {
+    "app": "creator",
+    "name": "add request body",
+    "usecase": "add body"
+  },
+  {
+    "app": "creator",
+    "name": "add request header",
+    "usecase": "add header"
+  }
+]

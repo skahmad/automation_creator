@@ -1,0 +1,22 @@
+[
+  {
+    "app": "creator",
+    "connection": "postgres_connection_dev",
+    "message": "database running."
+  },
+  {
+    "app": "creator",
+    "connection": "mysql_connection",
+    "message": "Connection not established 'mysql_connection'."
+  },
+  {
+    "app": "creator",
+    "connection": "mysql_connection_dev",
+    "message": "Connection not established 'mysql_connection_dev'."
+  },
+  {
+    "app": "creator",
+    "connection": "postgres_connection",
+    "message": "Connection not established 'postgres_connection'."
+  }
+]

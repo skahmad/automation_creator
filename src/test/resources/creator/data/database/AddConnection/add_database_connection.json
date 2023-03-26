@@ -1,0 +1,42 @@
+[
+  {
+    "app": "creator",
+    "connection": "postgres_connection",
+    "type": "Postgres",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "user": "postgres",
+    "password": "moon@light",
+    "instance": "creator_test"
+  },
+  {
+    "app": "creator",
+    "connection": "mysql_connection",
+    "type": "Mysql",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "user": "root",
+    "password": "moon@light",
+    "instance": "creator_test"
+  },
+  {
+    "app": "creator",
+    "connection": "postgres_connection_dev",
+    "type": "Postgres",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "user": "postgres",
+    "password": "moon@light",
+    "instance": "creator_dev"
+  },
+  {
+    "app": "creator",
+    "connection": "mysql_connection_dev",
+    "type": "Mysql",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "user": "root",
+    "password": "moon@light",
+    "instance": "creator_dev"
+  }
+]

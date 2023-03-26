@@ -1,0 +1,38 @@
+[
+  {
+    "app": "creator",
+    "connection": "postgres_connection_dev",
+    "title": "query 1",
+    "query": "select * from table;"
+  },
+  {
+    "app": "creator",
+    "connection": "postgres_connection_dev",
+    "title": "query 2",
+    "query": "select * from table;"
+  },
+  {
+    "app": "creator",
+    "connection": "postgres_connection_dev",
+    "title": "query 3",
+    "query": "select * from table;"
+  },
+  {
+    "app": "creator",
+    "connection": "postgres_connection_dev",
+    "title": "query 4",
+    "query": "select * from table;"
+  },
+  {
+    "app": "creator",
+    "connection": "postgres_connection_dev",
+    "title": "query 5",
+    "query": "select * from table;"
+  },
+  {
+    "app": "creator",
+    "connection": "postgres_connection_dev",
+    "title": "query 6",
+    "query": "select * from table;"
+  }
+]

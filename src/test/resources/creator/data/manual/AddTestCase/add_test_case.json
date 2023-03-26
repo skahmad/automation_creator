@@ -1,0 +1,6 @@
+[
+  {"app" : "creator", "usecase" : "add application", "name" : "add app without name"},
+  {"app" : "creator", "usecase" : "add application", "name" : "add app without url"},
+  {"app" : "creator", "usecase" : "add application", "name" : "add app with name and url"},
+  {"app" : "creator", "usecase" : "add application", "name" : "add app with special charis n name"}
+]

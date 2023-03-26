@@ -1,0 +1,60 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All Suite" verbose="1" >
+    <test name="app test">
+        <classes>
+            <class name="creator.app.AddApp" />
+            <class name="creator.app.DeleteApp" />
+            <class name="creator.app.AddVersion" />
+            <class name="creator.app.EnvironmentTest" />
+        </classes>
+    </test>
+    <test name="manual test">
+        <classes>
+            <class name="creator.manual.AddUseCase"/>
+            <class name="creator.manual.AddTestCase"/>
+            <class name="creator.manual.UpdateTestCase"/>
+            <class name="creator.manual.UpdateUsecase"/>
+        </classes>
+    </test>
+    <test name="ui test">
+        <classes>
+            <class name="creator.page.add" />
+            <class name="creator.page.delete"/>
+        </classes>
+    </test>
+
+    <test name="rest test">
+        <classes>
+            <class name="creator.rest.Request" />
+            <class name="creator.rest.AddRequestBody" />
+            <class name="creator.rest.DeleteRequestBody" />
+        </classes>
+
+    </test>
+
+    <test name="database test">
+        <classes>
+            <class name="creator.database.AddConnection"/>
+            <class name="creator.database.TestConnection"/>
+            <class name="creator.database.AddQuery"/>
+        </classes>
+    </test>
+
+
+    <test name="code flow tests">
+        <classes>
+            <class name="creator.codeflow.collections.AddCollectionTests" />
+            <class name="creator.codeflow.groups.AddGroupTests" />
+            <class name="creator.codeflow.rule.AddRuleTests" />
+        </classes>
+    </test>
+
+    <!--test name="task-tests">
+        <classes>
+            <class name="creator.tasks.tasks"/>
+            <class name="creator.annot_test"></class>
+            <class name="creator.othertest.SignInAlertTest"></class>
+        </classes>
+    </test-->
+</suite>
